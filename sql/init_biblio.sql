@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS livre_auteur (
 -- ---------- Donnees de demonstration ----------
 INSERT INTO auteur (nom, prenom, nationalite, date_naissance) VALUES
 ('Lakhrissi', 'Younes', 'Marocaine', '1980-05-12'),
-('Martin', 'Robert', 'Francaise', '1975-11-30');
+('Khamlichi', 'Younes', 'Francaise', '1975-11-30');
 INSERT INTO livre (titre, annee, editeur, categorie, nb_exemplaires) VALUES
 ('Programmation Java', 2025, 'ENSA Fes', 'SCIENCE', 10),
 ('Python Facile', 2023, 'Dunod', 'SCIENCE', 5),
