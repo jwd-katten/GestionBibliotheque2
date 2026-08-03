@@ -28,6 +28,12 @@ import model.Categorie;
 import model.Livre;
 
 public class BibliothequeApp extends JFrame {
+
+	private static final long serialVersionUID = 1L; // evite le warning does
+														// not declare a static
+														// final
+														// serialVersionUID...
+
 	private final LivreDAO livreDAO = new LivreDAO();
 	private final AuteurDAO auteurDAO = new AuteurDAO();
 	private final TableModele modele = new TableModele();
@@ -282,6 +288,9 @@ public class BibliothequeApp extends JFrame {
 	// ---------- Modèle de tableau ----------
 
 	private class TableModele extends AbstractTableModel {
+
+		private static final long serialVersionUID = 1L;
+
 		private final String[] colonnes = {"ID", "Titre", "Année", "Éditeur",
 				"Catégorie", "Exemplaires", "Auteurs"};
 		private List<Livre> lignes = new ArrayList<>();
