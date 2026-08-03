@@ -1,0 +1,23 @@
+ipse
+.project
+.classpath
+.settings/
+
+# Java
+bin/
+target/
+*.class
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
