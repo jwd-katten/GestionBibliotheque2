@@ -36,7 +36,7 @@ public class LivreDAO {
 				if (rs.next()) {
 					l.setId(rs.getInt(1));
 
-					// Associer les auteurs
+					// Associer les auteurs au livre
 					lierAuteurs(c, l);
 				}
 			}
